@@ -9,9 +9,13 @@ function preLoad() {
   redSprite = new Sprite(200,200, 80, 80);
 
   // Load Sprite Sheet
-  limeSprite.spriteSheet = "Assets/lime.png";
-  goldenSprite.spriteSheet = "Assets/golden.png";
-  redSprite.spriteSheet = "Assets/red.png";
+  limeSprite.spriteSheet = 'Assets/lime.png';
+  goldenSprite.spriteSheet = 'Assets/golden.png';
+  redSprite.spriteSheet = 'Assets/red.png';
+
+  let animation = {
+    stand: { row: 0, frames: 1 }
+  }
 }
 
 function setup() {
